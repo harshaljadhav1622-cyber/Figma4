@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.landing{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3dc0b7;
+    /* border: 1px solid black; */
+}
+#logo{
+    width: 30%;
+    padding-left: 7em;
+}
+#pages{
+    width: 70%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-top: 0.5em;
+}
+.info{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.page1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 50px;
+}
+#cute-girl{
+    height: 50%;
+    width: 75%;
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.numbers{
+    height: 10%;
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    width: 30%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20%;
+    height: 100%;
+    box-shadow: 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    align-items: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+.boxes{
+    height: 50%;
+    padding-bottom: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.data{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+.page3{
+    background-color: rgba(37, 38, 65, 1);
+    height: 50%;
+    width: 100%;
+    color: rgba(178, 179, 207, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
